@@ -1,0 +1,13 @@
+html{
+    font-size: 30px;
+}
+
+
+.caja {
+    font-size: 2rem;
+    width: 25rem;
+    height: 25rem;
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+}
