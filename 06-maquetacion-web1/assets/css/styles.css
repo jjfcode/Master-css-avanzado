@@ -7,9 +7,26 @@
     --color-transparent: transparent;
 
     --color-icon: #B5B6B7;
-    --color-title: #222222;
+    --color-titles: #222222;
     --Color-subtitle: #888;
     --color-text: #555;
 }
+
 /* Estilos Generales */
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: "Poppins", helvetica, sans-serif;
+    font-size: 1.5rem;
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--color-titles);
+}
 /* Estructura principal */
