@@ -58,3 +58,43 @@ body{
     box-shadow: 0 0 100px -5px rgba(0, 0, 0, 0.25);
 }
 
+/* Barra lateral azul */
+.layout__aside{
+    grid-area: aside;
+
+    border-radius: 4rem 0 0 4rem;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.aside__user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    min-height: 100%;
+    min-width: 30rem;
+    background-color: var(--color-secundary);
+    color: var(--color-principal);
+}
+
+.user-info__container-image{
+    position: relative;
+    display: inline-block;
+    width: 18rem;
+    margin-top: 7rem;
+    background-color: var(--color-principal);
+    border: 3px solid var(--color-principal);
+    border-radius: 20rem;
+    overflow: hidden;
+}
+
+.user-info__image{
+    width: 100%;
+}
+
+/* Contenedor Principal */
+.layout__content{
+    grid-area: content;
+}
