@@ -1,0 +1,15 @@
+/* Definicion Variables */
+:root{
+    --color-principal: #FFFFFF;
+    --color-secundary: #04B4E0;
+
+    --color-background: #F2F7F9;
+    --color-transparent: transparent;
+
+    --color-icon: #B5B6B7;
+    --color-title: #222222;
+    --Color-subtitle: #888;
+    --color-text: #555;
+}
+/* Estilos Generales */
+/* Estructura principal */
