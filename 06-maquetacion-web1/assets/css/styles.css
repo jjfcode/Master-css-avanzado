@@ -1,7 +1,7 @@
 /* Definicion Variables */
 :root{
     --color-principal: #FFFFFF;
-    --color-secundary: #04B4E0;
+    --color-secondary: #04B4E0;
 
     --color-background: #F2F7F9;
     --color-transparent: transparent;
@@ -75,7 +75,7 @@ body{
 
     min-height: 100%;
     min-width: 30rem;
-    background-color: var(--color-secundary);
+    background-color: var(--color-secondary);
     color: var(--color-principal);
 }
 
@@ -166,7 +166,7 @@ body{
 
 .user-info__btn:hover{
     background-color: var(--color-principal);
-    color: var(--color-secundary);
+    color: var(--color-secondary);
 }
 
 .user-info__footer{
@@ -181,7 +181,7 @@ body{
     height: 100%;
     min-height: 100%;
 
-    background-color: var(--color-secundary);
+    background-color: var(--color-secondary);
     border-radius: 0 10rem 10rem 0;
 }
 
@@ -246,7 +246,7 @@ body{
 }
 
 .menu__option:hover .menu__icon{
-    color: var(--color-secundary);
+    color: var(--color-secondary);
 }
 
 .menu__overlay{
