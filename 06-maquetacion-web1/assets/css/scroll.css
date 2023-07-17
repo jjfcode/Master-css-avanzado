@@ -60,3 +60,8 @@
     scrollbar-width: thin;
     scrollbar-color: var(--color--scrollbar) transparent;
 }
+
+.loyout__aside{
+    scrollbar-width: thin;
+    scrollbar-color: var(--color--scrollbar) var(--color-secondary);
+}
