@@ -308,7 +308,8 @@ body{
     opacity: 0.5;
 }
 
-.title__color{
+.title__color,
+.subtitle__color{
     color: var(--color-secondary);
 }
 
@@ -344,6 +345,7 @@ body{
     font-weight: 600;
 }
 
+/* Estilos generales compartidos about y otras seciones */
 /* maquetando los servicios */
 .about__services,
 .about__reviews,
@@ -358,7 +360,8 @@ body{
 .reviews__header,
 .clients__header,
 .prices__header,
-.extra__header{
+.extra__header,
+.resume__subheader{
     display: inline-block;
     padding-right: 1.2rem;
     margin-bottom: 2.5rem;
@@ -369,7 +372,8 @@ body{
 .reviews__title,
 .clients__title,
 .prices__title,
-.extra__title{
+.extra__title,
+.resume__subtitle{
     font-size: 2.1rem;
 }
 
@@ -377,7 +381,8 @@ body{
 .reviews__title::after,
 .clients__title::after,
 .price__title::after,
-.extra__title::after{
+.extra__title::after,
+.resume__subtitle::after{
     content: "";
     position: absolute;
     top: 15px;
