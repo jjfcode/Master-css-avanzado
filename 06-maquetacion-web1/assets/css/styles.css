@@ -719,7 +719,7 @@ body{
     left: 30%;
     bottom: -18%;
     width: 1px;
-    background-color: var(--color-background);
+    background-color: var(--color-border-reviews);
 }
 
 .timelines__divider::before{
