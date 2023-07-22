@@ -1129,10 +1129,17 @@ body{
 }
 
 .form__label{
-    position: ;
+    
+}
+
+.form__right{
+    flex-basis: 50%;
+    max-width: 50%;
+    max-height: 100%;
 }
 
 .form__input--textarea{
     display: block;
-    height: 100%;
+    height: auto;
+    resize: none;
 }
