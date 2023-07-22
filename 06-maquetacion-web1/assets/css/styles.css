@@ -1124,7 +1124,6 @@ body{
     background: 0 0;
     background-color: transparent;
     line-height: 2.1rem;
-    z-index: 1;
 }
 
 .form__input:focus{
@@ -1135,9 +1134,9 @@ body{
     position: absolute;
     top: 1rem;
     left: 1.5rem;
-    z-index: -1;
     color: var(--color-company);
     transition: all 300ms ease-in-out;
+    pointer-events: none;
 }
 
 .form__input:focus~label{
