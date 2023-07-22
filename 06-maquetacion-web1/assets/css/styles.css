@@ -15,6 +15,7 @@
     --color-company: #A5A6A7;
     
     --color-background-certificate: #f5f5f5;
+    --color-background-contact: #FCFCFC;
 
 }
 
@@ -1054,5 +1055,40 @@ body{
 
 .article__title{
     font-size: 1.8rem;
+}
+
+/* PAGINA DE CONTACT */
+.contact__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact__info{
+    flex-basis: 33%;
+    padding: 0 1.5rem;
+}
+
+.contact__data{
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: var(--color-background-contact);
+    border: 0.1rem solid var(--color-border-reviews);
+}
+
+.contact__icon{
+    font-size: 3.3rem;
+    color: var(--color-secondary);
+}
+
+.contact__subtitle{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.contact__form-box{
+    flex-basis: 66%;
+    padding: 0 1.5rem;
 }
 
