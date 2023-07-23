@@ -11,3 +11,9 @@
     text-align: center;
     line-height: calc(300px * 2);
 }
+
+img{
+    width: 400px;
+    height: 400px;
+    clip-path: ellipse(130px 180px at 50% 40%);
+}
