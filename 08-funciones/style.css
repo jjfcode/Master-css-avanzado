@@ -8,7 +8,8 @@
     /* background: linear-gradient(to bottom left, orange 25%,red); */
     /* background: repeating-linear-gradient(to right, orange, red);
     background-size: 30px, 30px; */
-    background: radial-gradient(circle 300px, orange 55%, red);
+    /* background: radial-gradient(circle 300px, orange 55%, red); */
+    background: radial-gradient(farthest-corner at 50px 50px, orange, red, blue);
     color: white;
     font-size: 20px;
     text-align: center;
