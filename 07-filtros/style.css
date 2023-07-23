@@ -1,0 +1,21 @@
+img{
+    filter: hue-rotate(200deg);
+    transition: all 500ms ease-in-out;
+}
+
+/* img:hover{
+    filter: brightness(100%);
+} */
+
+.caja{
+    margin: 50px;
+    filter: grayscale(100%);
+    border: 1px solid blue;
+    background-color: aqua;
+    color: blue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
