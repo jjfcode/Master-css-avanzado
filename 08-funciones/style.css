@@ -18,8 +18,8 @@
 
 img{
     margin: 20px;
-    width: 400px;
-    height: 400px;
+    width: 16px;
+    height: 16px;
     border-radius: 900px;
     box-shadow: 0px 0px 10px black;
 
@@ -28,4 +28,10 @@ img{
     /* transform: scale(2); */
     /* transform: translateY(100%); */
     transform: rotate(100deg);
+}
+
+li{
+    /* list-style: none; */
+    /* list-style-image: url(default-user.jpg); */
+    list-style-type: disclosure-open;
 }
