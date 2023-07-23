@@ -1,0 +1,13 @@
+.caja{
+    /* width: calc(300px + 40px); */
+    /* width: min(300px, 100px, 200px, 50px); */
+    /* width: max(300px, 100px, 200px, 50px); */
+    width: clamp(200px, 40%, 500px);
+    height: calc(300px * 2);
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: calc(300px * 2);
+}
