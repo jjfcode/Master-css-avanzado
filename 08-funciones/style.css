@@ -5,7 +5,9 @@
     width: clamp(200px, 40%, 500px);
     height: calc(300px * 2);
     border: 2px solid red;
-    background-color: black;
+    /* background: linear-gradient(to bottom left, orange 25%,red); */
+    background: repeating-linear-gradient(to right, orange, red);
+    background-size: 30px, 30px;
     color: white;
     font-size: 20px;
     text-align: center;
